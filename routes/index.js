@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home', { title: 'TrackerApp' });
+  res.render('index', { title: 'TrackerApp' });
 });
 
 // This is where im adding the 
